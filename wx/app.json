@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/music/music",
+    "pages/play/play",
+    "pages/play/play/input",
+    "pages/play/input/input"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "weChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#35495e",
+    "backgroundColor": "#f5f5f5",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页1.png"
+      },
+      {
+        "text": "曲目",
+        "pagePath": "pages/music/music",
+        "iconPath": "images/曲目.png",
+        "selectedIconPath": "images/曲目1.png"
+      },
+      {
+        "text": "演奏",
+        "pagePath": "pages/play/play",
+        "iconPath": "images/演奏.png",
+        "selectedIconPath": "images/演奏1.png"
+      }
+    ]
+  }
+}
