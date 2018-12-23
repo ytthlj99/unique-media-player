@@ -1,5 +1,0 @@
-<!--pages/play/play.wxml-->
-<view class='title'>请选择演奏方式</view>
-<button bindtap='open' class='button1'>虚拟钢琴弹奏</button>
-<text>\n\n</text>
-<button class='button2'bindtap='open2'>智能录入乐谱</button>
