@@ -1,0 +1,40 @@
+/* pages/music/music.wxss */
+.button_black{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
+  background-color: black;
+  color:white;
+  width: 240px;
+}
+.button_white{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
+  background-color: white;
+  color: black;
+  width: 240px;
+}
+.button_pause{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 8px 0 rgba(0,0,0,0.19);
+  width: 25%;
+  height: 14%;
+  border-radius: 50%;
+  flex-direction:column;
+  justify-content: center;
+  border: 2px solid red;
+  color: black;
+  background-color: red;
+  position:fixed; 
+  bottom:15px; 
+  left: 37.5%;
+}
+
+.button_pause:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0), 0 6px 20px 0 rgba(0,0,0,0.0);
+  transform: translateY(4px);
+}
+.button_black:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0), 0 6px 20px 0 rgba(0,0,0,0.0);
+  transform: translateY(2px);
+}
+.button_white:active {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.0), 0 6px 20px 0 rgba(0,0,0,0.0);
+  transform: translateY(2px);
+}
